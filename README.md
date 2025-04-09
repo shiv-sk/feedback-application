@@ -30,3 +30,5 @@ SUPABASE_KEY=your-supabase-anon-key
 - Serverless backend using Netlify Functions.
 - Real-time feedback storing in Supabase.
 - Admin-only feedback viewing with toggle control.
+### Note:
+When accessing the Admin Panel, you will be prompted for a password. Please use admin123 to view the feedbacks.
