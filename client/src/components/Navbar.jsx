@@ -14,9 +14,13 @@ export default function Navbar(){
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                     <Link to={"/"}><li>FeedbackApplication</li></Link>
+                    <Link to={"/admin"}><li>Admin</li></Link>
                 </ul>
                 </div>
                 <Link to={"/"} className="btn hidden sm:inline-flex btn-ghost text-xl font-bold">FeedbackApplication</Link>
+            </div>
+            <div className="navbar-end">
+                <Link className="btn" to={"/admin"}>Admin</Link>
             </div>
         </div>
     )
