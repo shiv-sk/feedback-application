@@ -42,8 +42,9 @@ export default function Admin(){
     return(
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-2xl font-bold mb-6">Admin Panel</h1>
-            <button onClick={handleOnclick}>{showFeedbacks ? "Hide Feedbacks" : "View Submitted Feedbacks"}</button>
-            <div className="flex flex-wrap gap-4 p-2">
+            <button className="btn btn-primary" 
+            onClick={handleOnclick}>{showFeedbacks ? "Hide Feedbacks" : "View Submitted Feedbacks"}</button>
+            <div className="flex flex-wrap gap-4 p-2 justify-center">
                 {
                     isLoading ? "Loading...." :
                     showFeedbacks && feedbacks && feedbacks.length > 0 ? feedbacks.map((feedback)=>(
