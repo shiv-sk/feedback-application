@@ -14,9 +14,9 @@ A simple feedback application that allows users to submit feedback and lets an a
 ### Installation
 git clone ```<repo-url>```<br>
 cd client <br>
-npm install
+```npm install```
 ### Run Locally
-npm run dev
+```npm run dev```
 ### Environment Setup
 You need a Supabase project. Create a .env file inside client/ or configure Netlify environment variables.<br>
 Refer to .env.exp for required keys:<br>
