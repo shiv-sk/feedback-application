@@ -32,3 +32,9 @@ SUPABASE_KEY=your-supabase-anon-key
 - Admin-only feedback viewing with toggle control.
 ### Note:
 When accessing the Admin Panel, you will be prompted for a password. Please use admin123 to view the feedbacks.
+
+### Screenshots
+![Screenshot 2025-04-09 145827](https://github.com/user-attachments/assets/b34008e1-af9f-4441-af36-00da0245abbb)
+![Screenshot 2025-04-09 145809](https://github.com/user-attachments/assets/8e666738-fd40-41ac-b060-60181c647637)
+![Screenshot 2025-04-09 145740](https://github.com/user-attachments/assets/475d0f45-d80c-4313-974b-7f61ed67c2c5)
+
